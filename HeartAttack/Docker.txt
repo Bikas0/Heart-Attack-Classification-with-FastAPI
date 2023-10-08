@@ -1,0 +1,18 @@
+1. Download Docker
+2. Install Docker
+3. Windows Powershell
+4. Run as administrator
+5. WSL INSTALLATION STEP --> https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-1---enable-the-windows-subsystem-for-linux
+	* COPY and PASTE step 1 in windows powershell
+	* Chesk in About Windows OS build Number. The number must be getter than step1.
+	* Enable Virtual Machine feature, this is step 3
+	* copy and paste "wsl.exe --update" for Download the Linux kernel update package
+	* copy and paste "wsl --set-default-version 2" Set WSL 2 as your default version
+6. Factory Reset       
+===================
+Docker Workflow:
+	* Dockerfile
+	* Docker Ignore file
+	* Build Image
+	* Run Container
+	* Manage Containers                                                                           
